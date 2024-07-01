@@ -1,0 +1,104 @@
+  @media (max-width: 850px) {
+
+    .hello{
+         
+         height: auto;
+         left: 100px;
+        top: 30px;
+        width: 250px;
+    }
+      ul {
+        text-align: center; /* Align text to the left for vertical arrangement */
+        padding-top: 30%;
+      }
+
+      ul li {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      ul li a {
+        padding: 15px 20px;
+        text-align: center;
+      }
+
+      ul li ul.dropdown {
+        padding-top: 0%;
+        width: 100%;
+        left: 0;
+      }
+
+      .hi{
+        display: none;
+    }
+
+    .hi2{
+        display: block;
+        height: auto;
+        padding-left: 25%;
+        min-width: 50%;
+    }
+
+    .box {
+        display: block;
+        margin: 20px auto;
+        max-width: 250px; /* Adjust the max-width as needed */
+        text-align: center;
+    }
+
+    .options {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .box:hover .options {
+        opacity: 1;
+    }
+.subscribe_section form{
+  padding-left: 25%;
+}
+
+.subscribe_section input{
+  margin: 15px 0px 20px;
+    width: 300px;
+    height:60px;
+    padding-left: 40%;
+}
+
+.subscribe_section button{
+    border-radius: 25px 25px 25px 25px;
+    width: 30%;
+    font-weight: bold;
+    text-align: center;
+}
+  .foot{
+    flex-direction: column;
+  }
+ .footer1{
+   width: 100%;
+  text-align: center;
+  height: auto;
+ }
+ .footer2{
+  width: 100%;
+  text-align: center;
+  height: auto;
+ }
+ .footer3{
+   width: 100%;
+  text-align: center;
+  height: auto;
+ }
+ .footer4{
+   width: 100%;
+  text-align: center;
+  height: auto;
+ }
+}

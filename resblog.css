@@ -1,0 +1,50 @@
+  @media (max-width: 850px) {
+
+    .hello{
+         
+         height: auto;
+         left: 100px;
+        top: 30px;
+        width: 250px;
+    }
+      ul {
+        text-align: center; /* Align text to the left for vertical arrangement */
+        padding-top: 30%;
+      }
+
+      ul li {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      ul li a {
+        padding: 15px 20px;
+        text-align: center;
+      }
+
+      ul li ul.dropdown {
+        padding-top: 0%;
+        width: 100%;
+        left: 0;
+      }
+
+      .hi{
+        display: none;
+    }
+
+    .hi2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ooo{
+        box-sizing: border-box;
+        display: block;
+        text-align: left;
+        height: auto;
+        width: 100%;
+    }
+    }

@@ -1,0 +1,264 @@
+
+.hello{
+  position: absolute;
+  height: auto;
+  left: 100px;
+  top: 35px;
+  width: 250px;
+}
+ul {
+list-style: none;
+text-align: right;
+padding-right: 50px;
+}
+ul li {
+display: inline-block;
+position: relative;
+}
+ul li a {
+display: block;
+padding: 45px 20px;
+padding-right: 20px;
+color: black;
+text-decoration: none;
+text-align: center;
+font-size: 17px;
+font-weight: bold;
+}
+ul li ul.dropdown li {
+display: block;
+}
+ul li ul.dropdown {
+width: 120%;
+background: white;
+border-style: coral;
+border-color: black;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li a:hover {
+  color: red;
+}
+ul li:hover ul.dropdown {
+display: block;
+}
+
+.grid{
+    width: 100%;
+    height: 140px;
+    background-color: #F7444E;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 330%;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+h3{
+  font: 50px "Playfair Display", serif;
+  margin: 0px 0px 15px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.heading_container h2 {
+    text-align:center;
+    position: relative;
+    margin-bottom: 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.heading_container h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #f7444e;
+    margin: 10px auto 10px;
+}
+
+.heading_container h2 span {
+  color: #f7444e;
+}
+
+img {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    position: relative;
+    min-width: 200px;
+    min-height: 200px;
+    margin: 0 auto;
+    border-color: white;
+    border: 2px solid #F6F7F8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background: #F6F7F8;
+    display: inline-block;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+.options {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+ 
+.box:hover .options {
+    opacity: 1;
+}
+.product{
+  text-align: center;
+}
+
+.product .options a {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 30px;
+  width: 165px;
+  text-align: center;
+  transition: all .3s;
+  margin: 5px 0;
+}
+
+.product .options .option1 {
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
+  color: #ffffff;
+}
+
+.product .options .option1:hover {
+  background-color: transparent;
+  color: #f7444e;
+}
+
+.product .options .option2 {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+
+.product .options .option2:hover {
+  background-color: transparent;
+  color: #000000;
+}
+
+.product .btn-box a {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
+  color: #ffffff;
+  border-radius: 0;
+  transition: all 0.3s;
+}
+
+.product .btn-box a:hover {
+  background-color: transparent;
+  color: #f7444e;
+}
+
+                   	/*footer scetion*/
+
+.ooo {
+  width: 100%;
+  height: 500px;
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.class1, .class3 {
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  width: 50px;
+  font-family: 'playfair Display', serif;
+  color: white;
+}
+
+.class1 {
+  margin: 10px;
+  width: 200px;
+  font-size: 40px;
+  padding-left: 40px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.class1 h3 {
+  width: 400px;
+  color: white;
+}
+
+.class1 h3 a {
+  text-decoration: none; /* Remove underline */
+  font-size: 26px; /* Adjust the font size */
+  color: white;
+}
+
+.class1 h3 a:hover {
+  color: #f7444e;
+}
+
+.class3 {
+  width: 200px;
+  margin: 10px;
+  font-size: 50px;
+  color: white;
+  padding-right: 400px;
+  text-align: left;
+}
+
+h6 {
+  font-size: 20px;
+  width: 400px;
+  margin-bottom: 0px;
+}
+
+.class3 h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.class3 h5 a {
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Adjust the font size */
+  color: white;
+}
+
+.class3 h5 a:hover {
+  color: greenyellow;
+}
+
+#copy {
+  width: 500px;
+  justify-content: center;
+  text-align: left;
+  font-size: 20px;
+}
